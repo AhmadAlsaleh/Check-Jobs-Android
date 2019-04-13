@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TipsActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/tipsVP"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/skipSlideTV"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/skip"
+        android:textSize="@dimen/subtitle_text_size"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/margin_items"
+        android:background="@color/colorAccentLight2"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        tools:ignore="SpUsage" />
+
+</RelativeLayout>
